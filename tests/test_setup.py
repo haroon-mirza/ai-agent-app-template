@@ -10,6 +10,7 @@ def test_expected_project_directories_exist() -> None:
         "evals",
         "tests",
         "vector_store/chroma",
+        "logs",
     ]
 
     for directory in expected_dirs:
