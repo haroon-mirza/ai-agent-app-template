@@ -68,3 +68,15 @@ local-ai-agent-template/
 ## Notes
 
 This template is intentionally minimal
+
+## Template usage
+
+This repository is marked as a GitHub template. For guidance, see [TEMPLATE.md](TEMPLATE.md).
+
+To create a new repository from this template using the GitHub CLI:
+
+```bash
+gh repo create <new-repo-name> --template haroon-mirza/ai-agent-app-template
+```
+
+After creating a new repository from this template, update the project `README.md`, repository name, and repository secrets as needed.
