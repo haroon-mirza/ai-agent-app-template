@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+
+# Environment files
+.env
+
+# Data / generated artifacts
+vector_store/chroma/
+*.parquet
+*.duckdb
+*.db
+
+# Logs
+logs/
+*.log
+*.jsonl
+
+# OS / editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
